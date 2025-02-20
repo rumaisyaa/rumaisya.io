@@ -21,6 +21,28 @@
         h1 {
             margin: 0;
         }
+        .profile {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .profile img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+        .profile h2 {
+            margin: 10px 0 5px;
+        }
+        .contact-links {
+            margin-top: 15px;
+        }
+        .contact-links a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #4682b4;
+            font-weight: bold;
+        }
         .portfolio-section {
             display: flex;
             flex-wrap: wrap;
@@ -64,6 +86,18 @@
             color: #4682b4;
             font-weight: bold;
         }
+        .experience {
+            padding: 20px;
+            background-color: #ffffff;
+            margin: 20px;
+            border-radius: 8px;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .experience h3 {
+            color: #4682b4;
+        }
     </style>
 </head>
 <body>
@@ -73,6 +107,34 @@
     <p>Selamat datang di portfolio saya! Berikut adalah beberapa proyek yang telah saya kerjakan.</p>
 </header>
 
+<!-- Foto Profil dan Kontak -->
+<section class="profile">
+    <img src="profil.jpg" alt="Foto Profil"> <!-- Ganti dengan gambar profil Anda -->
+    <h2>Nama Anda</h2>
+    <p>Data Analyst | Analis Data dan Pengembang Model</p>
+    
+    <div class="contact-links">
+        <a href="https://www.linkedin.com/in/username" target="_blank">LinkedIn</a> <!-- Ganti dengan URL LinkedIn Anda -->
+        <a href="https://wa.me/1234567890" target="_blank">WhatsApp</a> <!-- Ganti dengan nomor WhatsApp Anda -->
+        <a href="mailto:email@domain.com">Email</a> <!-- Ganti dengan alamat email Anda -->
+    </div>
+</section>
+
+<!-- Pengalaman (Experience) -->
+<section class="experience">
+    <h3>Pengalaman</h3>
+    <ul>
+        <li><strong>Data Analyst Intern</strong> | Perusahaan XYZ | Januari 2024 - Juni 2024
+            <p>Melakukan analisis data penjualan dan membantu pembuatan laporan bulanan untuk tim manajemen.</p>
+        </li>
+        <li><strong>Asisten Peneliti</strong> | Universitas ABC | Juli 2023 - Desember 2023
+            <p>Berkolaborasi dalam penelitian yang berfokus pada analisis data kesehatan menggunakan Python dan R.</p>
+        </li>
+        <!-- Tambahkan lebih banyak pengalaman jika diperlukan -->
+    </ul>
+</section>
+
+<!-- Proyek Data Analyst -->
 <section class="portfolio-section">
     <!-- Proyek 1 -->
     <div class="project-card">
@@ -129,6 +191,22 @@
         <p>Membuat visualisasi data interaktif untuk pemahaman yang lebih baik.</p>
         <a href="https://link-visualisasi-data.com" class="project-link" target="_blank">Lihat Proyek</a> <!-- Ganti dengan URL proyek Anda -->
     </div>
+
+    <!-- Proyek 8 -->
+    <div class="project-card">
+        <img src="gambar8.jpg" alt="Optimasi Rantai Pasokan"> <!-- Ganti dengan path gambar Anda -->
+        <h3>Proyek 8: Optimasi Rantai Pasokan</h3>
+        <p>Menganalisis data rantai pasokan untuk meningkatkan efisiensi operasional.</p>
+        <a href="https://link-optimasi-rantai-pasokan.com" class="project-link" target="_blank">Lihat Proyek</a> <!-- Ganti dengan URL proyek Anda -->
+    </div>
+
+    <!-- Proyek 9 -->
+    <div class="project-card">
+        <img src="gambar9.jpg" alt="Analisis Risiko Keuangan"> <!-- Ganti dengan path gambar Anda -->
+        <h3>Proyek 9: Analisis Risiko Keuangan</h3>
+        <p>Mengidentifikasi dan menganalisis risiko keuangan untuk perusahaan.</p>
+        <a href="https://link-analisis-risiko-keuangan.com" class="project-link" target="_blank">Lihat Proyek</a> <!-- Ganti dengan URL proyek Anda -->
+    </div>
 </section>
 
 <footer>
@@ -137,3 +215,4 @@
 
 </body>
 </html>
+
